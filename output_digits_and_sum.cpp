@@ -1,3 +1,6 @@
+/*
+Write a program that prompts the user to input an integer and then outputs both the individual digits of the number and the sum of the digits.
+*/
 #include <iostream>
 #include <sstream>
 #include <string>
