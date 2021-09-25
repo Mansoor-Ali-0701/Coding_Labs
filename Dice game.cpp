@@ -61,7 +61,7 @@ void Unittest(){
   cin>>RoH; 
 // specification C4 - Bulletproof Menu
   while(RoH<1 || RoH>3){
-    cout<< "Error: Please Enter the Number Option between 1-3"<< endl;
+    cout<< "Error: Please Enter the Number Option between 1-3: "<< endl;
     cin.clear();
     cin.ignore(123, '\n');
     cin>> RoH;
