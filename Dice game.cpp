@@ -1,6 +1,20 @@
 //C++Final A1.cpp 
 //8/29/2021	
 //Mansoor Ali, CISP 400
+/*You are coding a simple game called Pig. Players take turns rolling
+a die. The die determines how many points they get. You may get
+points each turn your roll (turn points), you also have points for the
+entire game (grand points). The first player with 100 grand points is
+the winner. 
+The rules are as follows:
+Each turn, the active player faces a decision (roll or hold):
+Roll the die. If it’s is a:
+1: You lose your turn, no turn total points are added to your
+grand total.
+2-6: The number you rolled is added to your turn total.
+Hold: Your turn total is added to your grand total. It’s now the
+next player’s turn.
+*/
 #include <iostream>		
 using namespace std;
 struct somestruct {
